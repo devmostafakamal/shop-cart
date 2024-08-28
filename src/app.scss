@@ -1,0 +1,32 @@
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+  color: lightgray;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+.coursor {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #6b4242;
+}
