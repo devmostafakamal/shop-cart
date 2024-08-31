@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./component/App";
-import { CartProvider } from "./component/Context/CartContext";
+//import { CartProvider } from "./component/Context/CartContext";
 
 // import WrapperComponent from "./demo2/WrapperComponent.jsx";
 // import ChieldComponent from "./demo2/ChieldComponent.jsx";
@@ -13,9 +13,7 @@ import { CartProvider } from "./component/Context/CartContext";
 createRoot(document.getElementById("root")).render(
   <>
     <StrictMode>
-      <CartProvider>
-        <App />
-      </CartProvider>
+      <App />
     </StrictMode>
   </>
 );

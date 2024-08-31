@@ -1,14 +1,12 @@
-import ProductList from "./ProductList";
-import Cart from "./Cart";
+import React from "react";
+import Quiz from "./Quiz";
 
-const App = () => {
+function App() {
   return (
     <div>
-      <h1>Shopping Cart</h1>
-      <ProductList />
-      <Cart />
+      <Quiz />
     </div>
   );
-};
+}
 
 export default App;
